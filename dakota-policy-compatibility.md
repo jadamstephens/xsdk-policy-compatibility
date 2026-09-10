@@ -18,7 +18,7 @@
 |**M8.** Provide a runtime API to return the current version number of the software. |Full | None. |
 |**M9.** Use a limited and well-defined symbol, macro, library, and include file name space. |Full | All Dakota components are in the `Dakota` namespace. |
 |**M10.** Provide a publicly available repository. |Full| Available at https://github.com/snl-dakota |
-|**M11.** Have no hardwired print or IO statements that cannot be turned off. | Partial | Dakota-native components can be redirected, but the output of some TPLs cannot. |
+|**M11.** Have no hardwired print or IO statements that cannot be turned off. | Full | Dakota-native components can be redirected, but the output of some TPLs cannot. |
 |**M12.** For external dependencies, allow installing, building, and linking against an outside copy of external software. | Partial | Some TPLs are vendored. |
 |**M13.** Install headers and libraries under \<prefix\>/include and \<prefix\>/lib. |Full | None. |
 |**M14.** Be buildable using 64 bit pointers. 32 bit is optional. |Full | None. |
